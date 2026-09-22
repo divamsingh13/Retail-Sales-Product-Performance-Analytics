@@ -1,30 +1,40 @@
 # Retail Sales & Product Performance Analytics
 
-I built this project to analyze retail sales performance across different product lines and store locations. The main goal was to take raw sales records, clean the data using Python, and present key profit trends in a clear Power BI dashboard layout.
+I built this project to analyze retail sales performance across product lines and store locations. The goal was to take raw sales records, process the data, and present key profit trends in an executive analytics dashboard format.
 
 ---
 
-## What I Used
-* **Python (Pandas & NumPy):** For cleaning raw CSV files, calculating margins, and bucketing products by profitability.
-* **Power BI & Excel:** For building visual reports, KPI cards, and regional slicers.
-* **GitHub:** For version control and sharing the project files.
+## 📊 Dashboard Preview
+
+![Dashboard Preview](gemini-svg.svg)
 
 ---
 
-## Project Workflow
+## Project Structure
 
-1. **Raw Data:** Started with order records in `sales_data.csv` covering date, product, category, region, units sold, price, and unit cost.
-2. **Data Processing:**
-   * Used Pandas to convert dates and compute Total Revenue, Cost, and Net Profit.
-   * Applied NumPy logic to calculate Profit Margin percentages and flag high-performing transactions.
-   * Exported the cleaned dataset to `cleaned_sales_data.csv`.
-3. **Dashboard Setup:** 
-   * Designed top KPI cards for Revenue, Profit, and Units Sold.
-   * Created simple bar and donut charts to compare category trends and regional profit performance.
+* `sales_data.csv` - Raw order transaction records.
+* `transform_data.py` - Python script for cleaning, margin calculations, and data processing.
+* `gemini-svg.svg` - Interactive Power BI visual dashboard layout mockup.
+* `README.md` - Comprehensive documentation and SQL business logic breakdown.
 
 ---
 
-## Main Takeaways
-* **High Margin Categories:** Clothing items like jackets and t-shirts delivered strong profit margins (over 50%) despite lower individual unit costs.
-* **Regional Insights:** The North and East store regions led total sales volume across all quarters.
-* **Volume Drivers:** Fast-moving items like keyboards and headphones provided steady cash flow and volume, balancing out slower-selling furniture items.
+## 1. Basic Analysis
+
+### Objectives
+1. Calculate total order volume and aggregate sales revenue.
+2. Identify top-selling items by total unit volume.
+3. Determine average unit price across categories.
+
+### Key SQL Queries & Logic
+```sql
+-- 1. Total Revenue Generated
+SELECT SUM(units_sold * unit_price) AS total_revenue 
+FROM sales_data;
+
+-- 2. Top 5 Most Ordered Items
+SELECT product_name, SUM(units_sold) AS total_quantity 
+FROM sales_data 
+GROUP BY product_name 
+ORDER BY total_quantity DESC 
+LIMIT 5;
