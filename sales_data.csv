@@ -1,0 +1,51 @@
+Transaction_ID,Date,Category,Product,Units_Sold,Unit_Price,Cost_Per_Unit,Store_Region
+T101,2026-01-05,Electronics,Headphones,15,50,30,North
+T102,2026-01-07,Furniture,Office Chair,8,120,80,South
+T103,2026-01-10,Electronics,Keyboard,25,40,20,East
+T104,2026-01-12,Furniture,Desk,5,250,180,West
+T105,2026-01-15,Clothing,Jacket,30,80,45,North
+T106,2026-01-18,Electronics,Headphones,10,50,30,South
+T107,2026-01-20,Clothing,T-Shirt,50,20,8,East
+T108,2026-01-22,Furniture,Office Chair,12,120,80,West
+T109,2026-01-25,Electronics,Keyboard,18,40,20,North
+T110,2026-01-28,Clothing,Jacket,22,80,45,South
+T111,2026-02-02,Electronics,Headphones,20,50,30,East
+T112,2026-02-05,Furniture,Desk,7,250,180,North
+T113,2026-02-10,Clothing,T-Shirt,45,20,8,South
+T114,2026-02-14,Electronics,Keyboard,14,40,20,West
+T115,2026-02-18,Clothing,Jacket,18,80,45,East
+T116,2026-02-20,Furniture,Bookshelf,9,150,95,North
+T117,2026-02-22,Electronics,Monitor,12,200,130,South
+T118,2026-02-25,Clothing,Sneakers,28,75,40,East
+T119,2026-02-28,Furniture,Office Chair,15,120,80,West
+T120,2026-03-02,Electronics,Headphones,32,50,30,North
+T121,2026-03-05,Clothing,T-Shirt,60,20,8,North
+T122,2026-03-08,Furniture,Desk,6,250,180,South
+T123,2026-03-11,Electronics,Monitor,15,200,130,East
+T124,2026-03-14,Clothing,Jacket,25,80,45,West
+T125,2026-03-17,Furniture,Bookshelf,11,150,95,South
+T126,2026-03-20,Electronics,Keyboard,30,40,20,North
+T127,2026-03-22,Clothing,Sneakers,20,75,40,East
+T128,2026-03-25,Furniture,Office Chair,10,120,80,West
+T129,2026-03-28,Electronics,Monitor,8,200,130,North
+T130,2026-03-30,Clothing,T-Shirt,40,20,8,South
+T131,2026-04-02,Electronics,Headphones,22,50,30,West
+T132,2026-04-05,Furniture,Desk,8,250,180,East
+T133,2026-04-08,Clothing,Jacket,15,80,45,North
+T134,2026-04-12,Electronics,Keyboard,27,40,20,South
+T135,2026-04-15,Furniture,Bookshelf,14,150,95,East
+T136,2026-04-18,Clothing,Sneakers,35,75,40,West
+T137,2026-04-20,Electronics,Monitor,10,200,130,North
+T138,2026-04-23,Furniture,Office Chair,16,120,80,South
+T139,2026-04-26,Clothing,T-Shirt,55,20,8,East
+T140,2026-04-28,Electronics,Headphones,19,50,30,West
+T141,2026-05-01,Furniture,Desk,4,250,180,North
+T142,2026-05-04,Clothing,Jacket,21,80,45,South
+T143,2026-05-07,Electronics,Keyboard,23,40,20,East
+T144,2026-05-10,Furniture,Bookshelf,7,150,95,West
+T145,2026-05-13,Clothing,Sneakers,17,75,40,North
+T146,2026-05-16,Electronics,Monitor,14,200,130,South
+T147,2026-05-19,Furniture,Office Chair,11,120,80,East
+T148,2026-05-22,Clothing,T-Shirt,48,20,8,West
+T149,2026-05-25,Electronics,Headphones,26,50,30,North
+T150,2026-05-28,Furniture,Desk,9,250,180,South
